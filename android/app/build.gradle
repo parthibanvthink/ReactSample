@@ -212,16 +212,16 @@ android {
     }
     signingConfigs {
         debug {
-            storeFile file("key/Demo.jks")
-            storePassword System.getenv("STORE_PASSWORD")
-            keyAlias System.getenv("KEY_ALIAS")
-            keyPassword System.getenv("KEY_PASSWORD")
+            storeFile file("Demo.jks")
+            storePassword "vthink"
+            keyAlias "vthink"
+            keyPassword "vthink"
         }
         release{
-            storeFile file("key/Demo.jks")
-            storePassword System.getenv("STORE_PASSWORD")
-            keyAlias System.getenv("KEY_ALIAS")
-            keyPassword System.getenv("KEY_PASSWORD")
+            storeFile file("Demo.jks")
+            storePassword "vthink"
+            keyAlias "vthink"
+            keyPassword "vthink"
         }
     }
     buildTypes {
