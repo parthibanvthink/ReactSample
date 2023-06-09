@@ -36,8 +36,7 @@ jobs:
       - name: "upload apk to App Center"
         uses: wzieba/AppCenter-Github-Action@v1
         with:
-          appName: "jeyapriya@vthink.co.in/React-App"
-          token: ${{secrets.APP_CENTER_TOKEN}}
+          appName: "jeyapriya-vthink.co.in/React-App"
+          token: "8f23a8735c921f752aabd5b0ff90b191f23da53e"
           file: ./android/app/build/outputs/apk/release/app-release.apk
-          group: "tester" 
           notifyTesters: "true"
